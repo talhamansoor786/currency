@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Currency Converter using Javascript</title>
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+</head>
+<body>
+  <div class="container">
+	<div class="col-sm-8 col-sm-offset-2">
+		<div class="page-header"><h1>Currency Converter using Javascript</h1></div>
+		<!-- FORM -->
+		<form name="userForm">
+			<div class="form-group col-md-12 col-sm-12 col-lg-12">
+				<label>Input Value</label>
+				<input type="number" name="" id="inputval">
+			</div>
+			<div class="clearfix"></div>
+			<div class="form-group col-md-6 col-sm-6 col-lg-6">
+				<label>Convert From</label>
+				<select id="convert-from"></select>
+			</div>
+			<div class="form-group col-md-6 col-sm-6 col-lg-6">
+				<label>Convert To</label>
+				<select id="convert-to"></select>
+			</div>
+			<button type="button" class="btn btn-primary" id="submit-btn">Submit</button>
+		</form>
+		<!-- FORM -->
+		<div class="page-header" id="resultID" style="display:none;"><h1>Result: <span id="result"></span></h1></div>
+	</div>
+</div>
+  <script src="js/index.js"></script>
+</body>
+</html>
